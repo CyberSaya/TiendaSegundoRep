@@ -14,6 +14,9 @@ function readURL(input) {
 
 /* La siguiente función se utiliza para activar la cantidad de elementos seleccionados
  * En el carrito de compras utilizando un llamado "ajax" */
+
+/* Esta seccion de carrito trabaja junto a fragmentos.html para agregar un elemento al carrito de compras
+ * En el carrito de compras utilizando un llamado "ajax" */
 function addCard(formulario) {
     var valor = formulario.elements[0].value;
     var url = '/carrito/agregar';
